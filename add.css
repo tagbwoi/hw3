@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main__sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+*{
+    font-family: Roboto;
+}
+
+
+body{
+    height: 100vh;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__sidebar li{
+    list-style: none;
+    margin-bottom: 7%;
+}
+.main__sidebar li:last-child{
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    margin-top: 2%;
+}
+
+#img{
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7%;
+}
+
+
+.content__img1{
+    background-image: url(https://4.bp.blogspot.com/-ZMK0KnLDrBo/Wjkl635d3pI/AAAAAAAAAK8/ssUty14qOnYCGql74OVGBNDjYyxsD01AQCK4BGAYYCw/s1600/tengriyaz%25C4%25B1l%25C4%25B1%25C5%259F%25C4%25B1.jpg);
+}
+
+.content__img2{
+    background-image: url(https://tengrinews.kz/userdata/images/u355/resized/1ba304c6da64098ce78b162f8872675f.jpeg);
+}
+
+
+.content__img3{
+    background-image: url(https://nlo-mir.ru/wp-content/uploads/2022/06/21787_218155778318997_263134080_n.jpg);
+}
+
+
+.content__img4{
+    background-image: url(https://nlo-mir.ru/wp-content/uploads/2022/06/tengri.jpg);
+}
+.main__sidebar{
+    width: 20%;
+    min-width: 20%;
+}
+.item{
+    display: flex;
+    margin: 0 0 5% 0;
+}
+.item:last-child{
+    margin-bottom: 0;
+}
+
+.item p{
+    width: 60%;
+    margin-left: 2%;
+    text-align:justify;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 1vh;
+    padding-bottom: 1%;
+    
+}
+
+@media (max-width:690px){
+    .main{
+        flex-direction: column;
+    }
+    .main__sidebar ul{
+        
+        display: flex;
+        gap: 20px;
+    }
+    header span{
+        display: none;
+    }
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style_r.css">
+</head>
+<body>
+    <style>
+        h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Medium', sans-serif;}
+        h2 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        
+    </style>
+    <div class="wrapper">
+        <section class="container">
+    <h1>Создать аккаунт</h1>
+    <h2 style="color: rgb(168, 168, 168);">Уже есть аккаунт? Войти в него</h2>
+
+    <form action=#>
+    <fieldset>
+    <input type="text" required placeholder="Логин">
+    
+    <input type="password" minlength="5" required placeholder="Пороль">
+    <br>
+</fieldset>
+    <fieldset>
+    <div style="display: block;">
+    <input type="text" required placeholder="Имя">
+    <input type="text" required placeholder="Фамилия">
+    </div>
+    
+    <h3>Пол</h3>
+    <div style="display: block;">
+        <input id="radio_1" required name="gender_of_a_person" type="radio" value="1" />
+        <label for="radio_1">Мужской</label><br />
+        <input id="radio_2" required name="gender_of_a_person" type="radio" value="2" />
+        <label for="radio_2">Женский</label><br />
+        <input id="radio_3" required name="gender_of_a_person" type="radio" value="3" />
+        <label for="radio_3">Не определился</label>
+    </div>
+    <br>
+    <label>Дата появления на свет<br><input type="date"></label>
+    <br>
+</fieldset>
+<br>
+    <label>E-mail<input type="text" required placeholder="E-mail" style="display: block;"></label>
+    <h4>Получать важные письма на электронную почту?</h4>
+    <label><input name="important_email" type="checkbox" /> Да, хочу получать</label>
+    <br><br>
+    <input type="tel" required placeholder="Номер телефона" >
+    <br><br>
+
+        <a href="login.html">Зарегистрироваться</a>
+    
+        
+    </form>
+    </section>
+</div>
+
+</body>
+</html>
